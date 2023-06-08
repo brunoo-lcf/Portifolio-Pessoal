@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/ciencia.png">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Portifolio</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="assets/images/bruno.jpg" alt="Foto do criador deste conteúdo">
+    <nav>  
+        <div class="logo">
+            <img class="icone" src="assets/images/bruno.jpg" alt="Foto do criador deste conteúdo">
+             <span class="titulo">Portifólio Bruno</span>
         </div>
         <ul>
             <li>
@@ -20,13 +23,12 @@
             </li>
         </ul>
     </nav>
+    <hr>
 
     <main>
-        <div>
-            <h1>Sobre Bruno Ferreira:</h1>
-        </div>
-        <section>
-            <div>
+      <h1>Sobre Bruno Ferreira:</h1>
+     <section id="sobre">
+            <div class="texto_sobre">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque ratione perferendis repudiandae rem eligendi
                      deleniti nemo aperiam molestiae, sed saepe perspiciatis accusamus! 
                      Vitae optio officiis, excepturi nisi quos a?</p>
@@ -38,29 +40,27 @@
                      Adipisci porro hic tempore non? Quidem error molestiae nulla hic dolor sit repellendus dignissimos, soluta quae?</p>   
             </div>
         </section>
-        <div>
-            <h2>Vídeo</h2>
-        </div>
-        <section>
+        <section id="video">
             <h3>Pitch Pessoal</h3>
 
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/EQROJCK3CSY" title="YouTube video player"
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/EQROJCK3CSY" title="YouTube video player"
                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
                   picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
     </main>
+    <hr>
     <footer>
-        <div>
+        <div class="redes_sociais">
             <a href="https://www.linkedin.com/in/bruno-ferreira-500604240/">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
             </a>
             <a href="https://www.github.com/brunoo-lcf">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub">
+                <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub">
             </a>
         </div>
-        <p>Desenvolvido por Bruno Ferreira - 2023 &copy;</p>
+        <p class="by">Desenvolvido por Bruno Ferreira - 2023 &copy;</p>
     </footer>
 </body>
 </html>
