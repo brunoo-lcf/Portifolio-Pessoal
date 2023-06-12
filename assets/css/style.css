@@ -11,15 +11,15 @@
     --cor-fonte-padrao: #000000;
     --cor-fonte-nav: #FFFFFF;
     --cor-fonte-by: rgb(245, 151, 10);
-    --cor-fonte-button-hover: rgb(52, 82, 255);
+    --cor-fonte-button-hover: rgb(0, 0, 0);
 
     --lato-roboto: 'lato', Roboto;
     --lato-cursiva: 'lato', cursive;
 
     --cor-sombra: #6b6b6b;
     --cor-sombra-hover: #000000;
-    --cor-button-hover: #191970;
-    --cor-placeholder-effect: #191970;
+    --cor-button-hover: #efbb1f;
+    --cor-placeholder-effect: #000000;
 }
 
 * {
